@@ -1,0 +1,20 @@
+{
+  "name": "tyag-connect-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that searches the TYAG alumni Connect Directory and returns matching contacts.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --dns-result-order=ipv4first src/index.js",
+    "dev": "node --dns-result-order=ipv4first --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "googleapis": "^144.0.0",
+    "groq-sdk": "^0.7.0"
+  },
+  "license": "UNLICENSED"
+}

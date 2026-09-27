@@ -1,0 +1,32 @@
+# Docker artifacts
+.dockerignore
+
+# Dependencies (Docker will install these fresh inside the container)
+node_modules/
+
+# Secrets — NEVER bake these into the image
+.env
+service-account-key.json
+
+# Git
+.git
+.gitignore
+
+# Dev/test scripts (not needed in production)
+check-sheet.js
+test-llm.js
+list-models.js
+groq-models.js
+groq-models.json
+append_chat.py
+export_chat.py
+chat.md
+
+# Documentation (not needed in production)
+*.md
+*.docx
+*.xlsx
+
+# OS noise
+.DS_Store
+Thumbs.db
