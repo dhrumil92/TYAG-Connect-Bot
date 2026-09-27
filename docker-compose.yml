@@ -4,7 +4,9 @@ services:
   tyag-bot:
     build: .
     container_name: tyag_connect_bot
-    restart: unless-stopped      # Auto-restart on crash or VM reboot
+    restart: unless-stopped
+    volumes:
+      - ./gcp-key.json:/usr/src/app/gcp-key.json      # Auto-restart on crash or VM reboot
     env_file:
       - .env                     # Secrets loaded from .env — never hardcoded
     logging:
