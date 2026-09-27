@@ -14,4 +14,4 @@ RUN npm ci --only=production
 COPY . .
 
 # Command to run the bot
-CMD ["node", "src/telegramListener.js"]
+CMD ["npm", "start"]
