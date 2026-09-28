@@ -11,8 +11,9 @@
 [![Groq](https://img.shields.io/badge/LLM-Groq%20API-orange?style=for-the-badge)](https://groq.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-**🚀 Live at: [@TYAG_Connect_bot](tg://resolve?domain=TYAG_Connect_bot)**
-
+<!-- **🚀 Live at: [@TYAG_Connect_bot](tg://resolve?domain=TYAG_Connect_bot)**
+**🚀 Live at: [@TYAG_Connect_bot](https://telegram.me/TYAG_Connect_bot)** -->
+**🚀 Live at: [@TYAG_Connect_bot](https://tyag.vercel.app)**
 </div>
 
 ---
